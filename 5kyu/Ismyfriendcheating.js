@@ -33,7 +33,7 @@
 // SOLUTION:
 
 function removeNb (n) {
-    // your code
+    // my code below
     let sum = (n + 1) * n / 2;
     let res = [];
     for (let i = 1; i <= n; i++) {
