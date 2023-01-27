@@ -1,0 +1,10 @@
+{
+  "name": "codewarrs",
+  "version": "1.0.0",
+  "description": "Codewars Solution Interface",
+  "main": "index.js",
+  "repository": "https://github.com/samuelajalode/codewarrs.git",
+  "author": "Samuel YF",
+  "license": "MIT",
+  "private": false
+}
