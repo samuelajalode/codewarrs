@@ -125,5 +125,3 @@ function nextBigger(n){
 // j--; decrements j
 
 // i === 0; checks if i is equal to 0
-
-

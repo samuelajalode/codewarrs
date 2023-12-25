@@ -89,8 +89,5 @@ var RomanNumerals = {
   };
 
   console.log(RomanNumerals.toRoman(1000)); // should return 'M'
-    console.log(RomanNumerals.fromRoman('M')); // should return 1000
+  console.log(RomanNumerals.fromRoman('M')); // should return 1000
 
-// NOTES:
-
-//add your notes
