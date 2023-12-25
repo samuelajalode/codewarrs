@@ -35,3 +35,19 @@ function getMiddle(s)
 }
 console.log(getMiddle("middle"));
 
+// function getMiddleElm(subString){
+//   var elementPosition;
+//   var elementLength;
+
+//   if (substring.length % 2 == 1) {
+//       elementPosition = subString.length / 2;
+//       elementLength = 1;    
+//   } else {
+//     elementPosition = subString.elementLength / 2 - 1;
+//     elementLength = 2;
+//   }
+//   return subString.substring(elementPosition, elementPosition + elementLength)
+// }
+// console.log(getMiddleElm("middle"))
+
+
