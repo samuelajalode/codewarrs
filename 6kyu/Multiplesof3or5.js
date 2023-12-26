@@ -17,7 +17,7 @@ function solution(number){
       arr.push(i) 
     }
     console.log(arr)
-    // if number in arr is a multiple or 3 or 5 push it to multiple
+    // if number in arr is a multiple of 3 or 5 push it to multiples
     for(let i = 0; i < arr.length; i++){
       if (i % 3 ===0 || i % 5 === 0){
         multiples.push(i);
@@ -28,8 +28,8 @@ function solution(number){
     const sumTotal = multiples.reduce((sum, number) => sum + number, 0)
     return sumTotal;
   }
-  console.log(multiples[0]);
-    console.log(solution(10));
+  // console.log(multiples[0]);
+    console.log(solution(100000000));
 
 // NOTES:
 
