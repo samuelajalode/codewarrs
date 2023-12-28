@@ -25,6 +25,7 @@ function pigIt(str){
   console.log(pigIt('Pig latin is cool !'));
 
 // NOTES:
+//
 
 // split() splits a String object into an array of strings by separating the string into substrings, using a specified separator string to determine where to make each split.
 
