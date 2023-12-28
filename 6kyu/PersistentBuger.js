@@ -20,7 +20,7 @@ function persistence(num) {
    return count;
  }
  
- console.log(persistence(39));
+ console.log(persistence(999));
 
 // NOTES:
 
