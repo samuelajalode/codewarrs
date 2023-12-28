@@ -1,11 +1,13 @@
 // DESCRIPTION:
 // A friend of mine takes the sequence of all numbers from 1 to n (where n > 0).
 // Within that sequence, he chooses two numbers, a and b.
-// He says that the product of a and b should be equal to the sum of all numbers in the sequence, excluding a and b.
+// He says that the product of a and b should be equal to the sum of all numbers in the sequence, 
+// Excluding a and b.
 // Given a number n, could you tell me the numbers he excluded from the sequence?
-// The function takes the parameter: n (n is always strictly greater than 0) and returns an array or a string (depending on the language) of the form:
+// The function takes the parameter: n (n is always strictly greater than 0) 
+// and returns an array or a string (depending on the language) of the form:
 
-// [(a, b), ...] or [[a, b], ...] or {{a, b}, ...} or or [{a, b}, ...]
+// [(a, b), ...] or [[a, b], ...] or {{a, b}, ...} or [{a, b}, ...]
 // with all (a, b) which are the possible removed numbers in the sequence 1 to n.
 
 // [(a, b), ...] or [[a, b], ...] or {{a, b}, ...} or ... will be sorted in increasing order of the "a".
@@ -35,14 +37,14 @@
 function removeNb (n) {
     // my code below
     let sum = (n + 1) * n / 2;
-    let res = [];
+    let result = [];
     for (let i = 1; i <= n; i++) {
       let j = (sum - i) / (i + 1);
       if (j <= n && j === Math.floor(j)) {
-        res.push([i, j]);
+        result.push([i, j]);
       }
     }
-    return res;
+    return result;
   }
 
     console.log(removeNb(26));  
