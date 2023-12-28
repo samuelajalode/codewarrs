@@ -33,7 +33,7 @@ function getMiddle(s)
   }
   return s.substring(position, position + length)
 }
-console.log(getMiddle("middle"));
+console.log(getMiddle("mirror"));
 
 // function getMiddleElm(subString){
 //   var elementPosition;
