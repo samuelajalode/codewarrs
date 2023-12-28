@@ -64,10 +64,11 @@ function isSolved(board) {
     return res;
   }
   
-  console.log(isSolved([[0, 0, 1], [0, 1, 2], [2, 1, 0]]));
+    console.log(isSolved([[0, 0, 1], [0, 1, 2], [2, 1, 0]]));
     console.log(isSolved([[0, 1, 1], [0, 1, 2], [2, 1, 0]]));
     console.log(isSolved([[2, 2, 1], [0, 1, 2], [2, 1, 0]]));
     console.log(isSolved([[2, 2, 1], [0, 1, 2], [2, 1, 1]]));
     console.log(isSolved([[2, 2, 1], [0, 1, 2], [2, 1, 2]]));
-
+    console.log(isSolved([[1, 2, 0], [1, 1, 0], [7, 1, 0]]));
+    console.log(isSolved([[0, 1, 1], [0, 1, 2], [2, 1, 0]]));
     
